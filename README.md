@@ -6,25 +6,25 @@
 Are the interfaces which dictates & enforces class to implement certain behaviour
 
 Examples
-* [lib/interfaces/authentication_repository.dart](AuthenticationRepository)
-* [lib/interfaces/todo_repository.dart](TodoRepository)
+* [AuthenticationRepository](lib/interfaces/authentication_repository.dart)
+* [TodoRepository](lib/interfaces/todo_repository.dart)
 
 ### API Repositories
 Are the objects/classes responsible for calling an APIs services
 
 Examples
-* [lib/repositories/todo_api_repository.dart](TodoApiRepository)
-* [lib/repositories/fake_authentication_api_repository.dart](FakeAuthenticationApiRepository)
+* [TodoApiRepository](lib/repositories/todo_api_repository.dart)
+* [FakeAuthenticationApiRepository](lib/repositories/fake_authentication_api_repository.dart)
 
 ## Cubits
 Are the classes responsible for doing the business logic, like calling APIs, storing data on phone, calculations...etc
 
 Examples
-* [lib/cubits/authentication_cubit.dart](AuthenticationCubit)
+* [AuthenticationCubit](lib/cubits/authentication_cubit.dart)
   * Login/Sign-in
   * Refresh Token
   * Sign out
-* [lib/cubits/todo_cubit.dart](TodoCubit)
+* [TodoCubit](lib/cubits/todo_cubit.dart)
   * Get Todos
   * Add Todos
   * Update Todos
