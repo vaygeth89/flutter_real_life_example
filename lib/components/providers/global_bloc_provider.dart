@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_example/http_clients/application_http_client.dart';
 import 'package:flutter_example/interfaces/todo_repository.dart';
-import 'package:flutter_example/repositories/fake_authentication_repository.dart';
+import 'package:flutter_example/repositories/fake_authentication_api_repository.dart';
 import 'package:flutter_example/repositories/todo_api_repository.dart';
-import 'package:flutter_example/states/authentication_cubit.dart';
-import 'package:flutter_example/states/todo_cubit.dart';
+import 'package:flutter_example/cubits/authentication_cubit.dart';
+import 'package:flutter_example/cubits/todo_cubit.dart';
 
 class GlobalBlocProvider extends StatelessWidget {
   final Widget child;

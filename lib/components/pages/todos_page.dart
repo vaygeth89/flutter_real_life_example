@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_example/models/todo.dart';
-import 'package:flutter_example/states/todo_cubit.dart';
+import 'package:flutter_example/cubits/todo_cubit.dart';
 
 class TodosPage extends StatelessWidget {
   const TodosPage({super.key});
