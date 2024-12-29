@@ -29,3 +29,8 @@ Examples
   * Add Todos
   * Update Todos
   * Delete Todos
+
+## How To Login
+To simulate successful login use
+* Email: user@example.com
+* Password: 123456
